@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDonationDescription">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שם פרטי"
+        android:fontFamily="@font/heebo_bold"
+
+        />
+    <TextView
+        android:id="@+id/view_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שם משפחה"
+        android:layout_below="@id/view_first_name"
+        android:fontFamily="@font/heebo_bold"
+
+        />
+    <TextView
+        android:id="@+id/view_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_name"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="קטגוריה"
+        android:layout_below="@id/view_last_name"
+        android:fontFamily="@font/heebo_bold"
+
+        />
+    <TextView
+        android:id="@+id/view_catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catagory"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+    <TextView
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="טלפון"
+    android:layout_below="@id/view_catagory"
+    android:fontFamily="@font/heebo_bold"
+
+    />
+    <TextView
+        android:id="@+id/view_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="דואר אלקטרוני"
+
+
+        android:layout_below="@id/view_phone"
+        android:fontFamily="@font/heebo_bold"
+
+        />
+    <TextView
+        android:id="@+id/view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="פירוט הבקשה"
+        android:layout_below="@id/view_email"
+        android:fontFamily="@font/heebo_bold"
+
+        />
+    <TextView
+        android:id="@+id/view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/detail"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/heebo_regular"
+        android:text="נח "
+        android:textSize="16.45sp" />
+
+
+    <!--<TextView-->
+
+        <!--android:id="@+id/DescriptionTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="פרוט חופשי"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@id/EmailTextView"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginTop="64dp"-->
+        <!--/>-->
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/TextHeader"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/DescriptionTextView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="-64dp"-->
+        <!--android:text="פירוט הבקשה"-->
+        <!--android:textColor="@android:color/black" />-->
+
+    <Button
+        android:id="@+id/Erase_btn"
+        android:layout_width="200dp"
+        android:layout_height="48.3dp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/heebo_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="16dp"
+        android:text="למחיקת הבקשה"
+        android:background="@drawable/erase_button"/>
+
+
+</RelativeLayout>
+

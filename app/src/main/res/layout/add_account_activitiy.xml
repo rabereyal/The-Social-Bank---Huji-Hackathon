@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFF"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/newusr"
+        android:layout_width="65.76dp"
+        android:layout_height="65.76dp"
+        android:src="@drawable/new_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/newusr"
+        android:layout_marginTop="8.9dp"
+        android:text="הרשמה למשתמש חדש"
+        android:textSize="26.3sp"
+        android:fontFamily="@font/heebo_bold"/>
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="שם פרטי"
+        android:inputType="textEmailAddress"
+        android:textSize="16.45sp" />
+
+
+
+    <EditText
+        android:id="@+id/seconed_edit"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/edit_first_name"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="שם משפחה"
+        android:inputType="textEmailAddress"
+        android:textSize="16.45sp" />
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:id="@+id/categoey_options"
+        android:background="@android:color/white"
+        android:layout_below="@id/seconed_edit"
+        />
+
+    <EditText
+        android:id="@+id/edit_beithaasek"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/categoey_options"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="בית העסק"
+        android:inputType="textEmailAddress"
+        android:textSize="16.45sp" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/edit_beithaasek"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="כתובת"
+        android:inputType="textEmailAddress"
+        android:textSize="16.45sp" />
+
+
+    <EditText
+        android:id="@+id/edit_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/edit_address"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="טלפון"
+        android:inputType="text"
+        android:textSize="16.45sp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/edit_telephone"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="כתובת אימייל"
+        android:inputType="textEmailAddress"
+        android:textSize="16.45sp" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:layout_below="@id/edit_email"
+        android:layout_marginLeft="32.8dp"
+        android:layout_marginRight="32.8dp"
+        android:layout_marginTop="52.6dp"
+        android:fontFamily="@font/heebo_regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16.45sp" />
+
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="345.2dp"
+        android:layout_height="48.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32.9dp"
+        android:layout_marginRight="32.9dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/edit_password"
+        android:background="@drawable/rounded_button"
+        android:textSize="14.13sp"
+        android:textColor="#ffff"
+        android:text=" הרשמה "
+        android:layout_marginBottom="54dp"
+        />
+
+</RelativeLayout>
+</ScrollView>

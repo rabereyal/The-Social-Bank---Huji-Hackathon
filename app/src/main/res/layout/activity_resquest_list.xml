@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/newusr"
+            android:layout_width="65.76dp"
+            android:layout_height="65.76dp"
+            android:src="@drawable/list_req"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/newusr"
+            android:layout_marginTop="8.9dp"
+            android:text="רשימת בקשות"
+            android:textSize="26.3sp"
+            android:fontFamily="@font/heebo_bold"
+            android:layout_marginBottom="52.6dp"/>
+        <ImageView
+            android:id="@+id/visible"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="#ffff"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:src="@drawable/thanks_new"/>
+        <ListView
+            android:id="@+id/reqeust_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title"></ListView>
+</RelativeLayout>
