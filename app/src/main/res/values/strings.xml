@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SocialBank</string>
+    <string name="name">שם: </string>
+    <string name="last_name">משפחה: </string>
+    <string name="beithaasek">בית - העסק: </string>
+    <string name="address">כתובת: </string>
+    <string name="telephone">טלפון: </string>
+    <string name="email">דואר אלקטרוני: </string>
+    <string name="password">סיסמא:  </string>
+    <string name="send"> שלח  </string>
+    <string name="social_bank">הבנק החברתי</string>
+    <string name="category">קטגוריה:  </string>
+    <string-array name="categories">
+        <item> קטגוריה </item>
+        <item> ביגוד </item>
+        <item> ריהוט </item>
+        <item> מזון </item>
+        <item> אירועים </item>
+    </string-array>
+</resources>

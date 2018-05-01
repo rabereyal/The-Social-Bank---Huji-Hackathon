@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".AddAccountScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="108.5dp"
+        android:layout_height="108.5dp"
+        android:src="@drawable/social_banklogo_circle"
+        android:layout_marginTop="135.8dp"
+        android:layout_marginLeft="151.248dp"
+        android:layout_marginRight="150.25dp"/>
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="39sp"
+        android:textColor="#071931"
+        android:text="@string/social_bank"
+        android:fontFamily="@font/heebo_bold"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="8.9dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginRight="92dp"/>
+
+
+
+
+    <Button
+    android:id="@+id/user"
+    android:layout_width="345.2dp"
+    android:layout_height="48.3dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="32.9dp"
+    android:layout_marginRight="32.9dp"
+    android:layout_marginTop="70dp"
+    android:layout_below="@+id/social"
+    android:background="@drawable/rounded_button"
+    android:textSize="14.13sp"
+    android:textColor="#ffff"
+    android:text=" כניסה למשתמש קיים"
+    />
+
+    <Button
+        android:id="@+id/newusr"
+        android:layout_width="345.2dp"
+        android:layout_height="48.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32.9dp"
+        android:layout_marginRight="32.9dp"
+        android:layout_marginTop="32.8dp"
+        android:layout_below="@+id/user"
+        android:background="@drawable/rounded_button"
+        android:textSize="14.13sp"
+        android:textColor="#ffff"
+        android:text=" הרשמה למשתמש חדש"
+        />
+
+
+</RelativeLayout>

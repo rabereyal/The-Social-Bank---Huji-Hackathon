@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminRequests">
+
+    <ImageView
+        android:id="@+id/newusr"
+        android:layout_width="65.76dp"
+        android:layout_height="65.76dp"
+        android:src="@drawable/list_req"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/newusr"
+        android:layout_marginTop="8.9dp"
+        android:text="רשימת בקשות"
+        android:textSize="26.3sp"
+        android:fontFamily="@font/heebo_bold"
+        />
+    <Button
+        android:id="@+id/newresq"
+        android:layout_width="345.2dp"
+        android:layout_height="48.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/title"
+        android:background="@drawable/rounded_button"
+        android:textSize="14.13sp"
+        android:textColor="#ffff"
+        android:text=" בקשה חדשה "
+        android:layout_marginBottom="30.6dp"
+        />
+
+    <ListView
+        android:id="@+id/reqeust_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/newresq"></ListView>
+
+
+
+</RelativeLayout>
